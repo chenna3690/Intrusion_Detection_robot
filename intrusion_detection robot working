@@ -1,0 +1,59 @@
+What is an Intrusion Detection Robot?
+An Intrusion Detection Robot is an autonomous or semi-autonomous robotic system designed to detect unauthorized access or presence in a restricted area using sensors and embedded technology. It's part of modern smart security systems and can monitor, detect, alert, and respond to security breaches.
+
+🤖 Key Components of an Intrusion Detection Robot:
+Motion Sensor (PIR Sensor)
+
+Detects human movement by sensing infrared heat.
+
+Ultrasonic Sensor
+
+Measures distance to detect nearby obstacles or movement.
+
+ESP32 or Microcontroller
+
+Processes sensor data and controls outputs like buzzer, relay, or web server.
+
+Buzzer or Alarm System
+
+Alerts users when intrusion is detected.
+
+Relay Module
+
+Can trigger external devices like lights, sirens, or cameras.
+
+Camera (optional)
+
+Captures photos/video of the intruder (ESP32-CAM is commonly used).
+
+Web Server / IoT Dashboard
+
+Displays sensor readings in real-time
+
+Sends alerts to the user
+
+Allows remote control and monitoring via HTML/CSS/JavaScript interface
+
+🧠 How It Works (Basic Flow):
+Robot continuously monitors surroundings using PIR and ultrasonic sensors.
+
+If motion is detected or someone comes too close:
+
+Robot sounds an alarm using a buzzer.
+
+Optionally, turns on a light or records via camera.
+
+Sends data to a web dashboard hosted on ESP32.
+
+User accesses the live data via browser on phone/laptop (no need for internet if SoftAP is used).
+
+🏠 Applications:
+Home and office security
+
+Industrial zone surveillance
+
+Military base monitoring
+
+Smart campus security systems
+
+Night watch automation in buildings
